@@ -1,0 +1,4 @@
+ckanext-harvest>=0.2
+amara>=2.0a4
+pymongo==2.8.1
+configparser==3.5.0b2
