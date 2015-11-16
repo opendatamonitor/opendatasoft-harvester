@@ -9,7 +9,7 @@ Tested with CKAN v2.2 (http://docs.ckan.org/en/ckan-2.2/).
 
 General
 ---------
-The opendatasoft-harvester plugin handles the OpendataSoft Api. Also it handles the metadata transformations between the OpenDatasoft and the ODM scheme.
+The opendatasoft-harvester plugin handles the Opendatasoft Api. Also it handles the metadata transformations between the Opendatasoft and the ODM scheme.
 The opendatasoft-harvester plugin uses the mongo DB as metadata repository and developed as part of the ODM project (www.opendatamonitor.eu).
 
 Building
