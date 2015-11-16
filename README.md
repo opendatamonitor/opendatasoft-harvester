@@ -2,18 +2,22 @@ opendatasoft-harvester
 ======================
 
 A harvester to allow CKAN directories to keep in sync with an Opendatasoft platform store.
-The opendatasoft-harvester plugin uses the mongo DB as metadata repository and developed as part of the ODM project (www.opendatamonitor.eu).
 
 In order to use this tool, you need to have the CKAN harvester extension (https://github.com/okfn/ckanext-harvest)
 installed and loaded for your CKAN instance.
 Tested with CKAN v2.2 (http://docs.ckan.org/en/ckan-2.2/).
+
+General
+---------
+The opendatasoft-harvester plugin handles the OpendataSoft Api. Also it handles the metadata transformations between the OpenDatasoft and the ODM scheme.
+The opendatasoft-harvester plugin uses the mongo DB as metadata repository and developed as part of the ODM project (www.opendatamonitor.eu).
 
 Building
 ---------
 
 To build and use this plugin, simply:
 
-    git clone git@github.com:opendatamonitor/opendatasoft-harvester.git
+    git clone https://github.com/opendatamonitor/opendatasoft-harvester.git
     cd opendatasoft-harvester
     pip install -r pip-requirements.txt
     python setup.py develop
