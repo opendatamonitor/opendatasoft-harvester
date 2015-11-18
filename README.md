@@ -27,6 +27,13 @@ opendatasoft-harvester plugin as a plugin.  E.g.
 
     ckan.plugins = opendatasoft_harvest
 
+Also you need to add the odm_extension settings to the development.ini file in your ckan folder.  
+
+    [ckan:odm_extensions]
+    mongoclient=localhost
+    mongoport=27017
+    log_path=/var/local/ckan/default/pyenv/src/
+
 Using
 ---------
 
