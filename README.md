@@ -3,8 +3,7 @@ opendatasoft-harvester
 
 A harvester to allow CKAN directories to keep in sync with an Opendatasoft platform store.
 
-In order to use this tool, you need to have the CKAN harvester extension (https://github.com/okfn/ckanext-harvest)
-installed and loaded for your CKAN instance.
+In order to use this tool, you need to have the ODM CKAN harvester extension (https://github.com/opendatamonitor/ckanext-harvestodm) installed and loaded for your CKAN instance. 
 Tested with CKAN v2.2 (http://docs.ckan.org/en/ckan-2.2/).
 
 General
